@@ -1,0 +1,1 @@
+<module type="layouts/templates/bgcolor_setting" id=<?php print $params['id'];?> />
