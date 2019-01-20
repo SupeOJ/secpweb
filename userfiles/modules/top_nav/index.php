@@ -74,6 +74,10 @@ $slider = sliderbar_tree2(0,$sliderbar);
         line-height: 60px;
         height:60px;
     }
+
+    /* 导航栏logo */
+    .logo-module{position: absolute;float: left;left: 280px;height: 100%;}
+
     body.mw-live-edit .left-nav-sons-children,
     body.mw-live-edit .left-nav{top:52px;}
     .nav-top-menu{background: #464547;width:100%;position: fixed;top:0px;z-index: 999;}
@@ -158,8 +162,13 @@ $slider = sliderbar_tree2(0,$sliderbar);
                     <div class="bar"></div>
                 </div>
             </div><!-- <div class="left-nav-button"> -->
-            <div class="md-dropdownmenu">
-             <module type="dropdown_menu" />
+            
+            <!-- 导航栏logo -->
+            <div class="nav-module logo-module">
+                <module type="logo" id="logo" template="default" default-text="Dream"/>
+            </div>
+            <div class="md-dropdownmenu">               
+                <module type="dropdown_menu" />
             </div>
    
     </div>  

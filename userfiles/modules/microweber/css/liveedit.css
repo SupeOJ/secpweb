@@ -1824,7 +1824,7 @@ div.mw_drag_started, li.module-item.ui-draggable-dragging {
 
 .element-over:hover,
 .module-over:hover {
-    outline: 5px solid rgba(0, 134, 219, 1);
+    outline: 1px solid rgba(0, 134, 219, 1);
     outline-offset: -1px;
 }
 
