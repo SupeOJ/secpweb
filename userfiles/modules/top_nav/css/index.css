@@ -373,7 +373,7 @@ ul.boxx-img li a span{display:block;text-align:center;color:#fff;font-size: 12px
 }
 
 /* 导航栏logo */
-.logo-module{position: absolute;float: left;left: 200px;height: 100%;}
+.logo-module{position: absolute;float: left;left: 10%;height: 100%;}
 
 body.mw-live-edit .left-nav-sons-children,
 body.mw-live-edit .left-nav{top:52px;}
