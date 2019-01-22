@@ -26,7 +26,7 @@ position: 20
         else window.ca_res.mobirise_js = true;
     };
 </script>
-<style>.footer_copyright{background: #262626;padding:2em 0;color:#fff;}</style>
+<style>.footer_copyright{background: #262626;padding:1em 0;color:#fff;}</style>
 <section>
 	<div class="footer_copyright" >
 		<div class="container">

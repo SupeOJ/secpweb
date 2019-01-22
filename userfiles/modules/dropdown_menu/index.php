@@ -29,19 +29,23 @@
     }
 
     .cbp-hrmenu > ul > li > a {
-        font-weight: 700;
+        /*font-weight: 700;*/
         padding: 0 2em;
-        color: #eee;
+        /*color: #eee;*/
         display: inline-block;
         height: 60px;
         line-height: 60px;
+        color: #FFFFFF;
+        font-size: 14px;
+        font-family: 'Segoe UI',SegoeUI,'Microsoft YaHei',微软雅黑,"Helvetica Neue",Helvetica,Arial,sans-serif;
     }
     .cbp-hrmenu > ul > li > a:hover{text-decoration: none;}
     .cbp-hrmenu > ul > li.cbp-hropen >a,
     .cbp-hrmenu > ul > li.cbp-hropen > a:hover {
         color: #2D95A2;
         background: #313131;
-        border-bottom: 3px solid;
+        /* border-bottom: 3px solid; 
+        color: #f52c38; */
     }  
 
 
